@@ -1,0 +1,29 @@
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.weather-group {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+    margin: 0 10px;
+}
