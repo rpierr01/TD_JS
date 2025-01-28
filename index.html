@@ -9,25 +9,16 @@
             <h1>TD n°1 Programmation web – Application météo</h1>
         </header>
         <div class="weather-container">
-            <div class="weather-group">
-                <h2>Niort</h2>
-                <p>12°, pluvieux</p>
-                <img src="pluvieux.png" width="15%"/>
-            </div>
-            <div class="weather-group">
-                <h2>Rio de Janeiro</h2>
-                <p>29°, orageux</p>
-                <img src="orageux.png" width="15%"/>
-            </div>
-            <div class="weather-group">
-                <h2>Reykjavik</h2>
-                <p>-10°, ensoleillé</p>
-                <img src="ensoleille.png" width="15%"/>
-            </div>
+            <form id="city-form">
+                <input type="text" id="city-input" placeholder="Entrez une ville">
+                <button type="submit">Rechercher</button>
+            </form>
+            <div id="weather-result"></div>
         </div>
+        <footer>
+            <p>Remi Pierron</p>
+            <p>Icons by Weather Icons</p>
+        </footer>
+        <script src="script.js"></script>
     </body>
-    <footer>
-        <p>Remi Pierron</p>
-        <p>Icons by Weather Icons</p>
-    </footer>
 </html>
